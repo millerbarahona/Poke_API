@@ -2,16 +2,6 @@
   padding: 100px;
 }
 
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .pokemones {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -33,4 +23,44 @@
 
 .pokemon_name {
   text-transform: capitalize;
+}
+
+@media (min-width: 600px) {
+  .pokemones {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .container {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 700px) {
+  .pokemones {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .container {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 900px) {
+  .pokemones {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .container {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .pokemones {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .container {
+    padding: 50px;
+  }
 }
