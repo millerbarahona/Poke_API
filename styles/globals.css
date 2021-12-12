@@ -14,3 +14,11 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.fire {
+  background-color: #ee1616;
+}
+
+div {
+  background-color: aquamarine;
+}

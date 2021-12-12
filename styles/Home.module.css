@@ -16,8 +16,27 @@
   align-items: center;
 }
 
+.fire {
+  background-color: #ec2323;
+}
+
+.water {
+  background-color: #397dfc;
+}
+
+.grass {
+  background-color: #4fdd32;
+}
+
+.poison {
+  background-color: #6025eb;
+}
+
+.backRed:hover {
+  background-color: #b41010;
+}
+
 .pokemon:hover {
-  background-color: #cfcfcf;
   cursor: pointer;
 }
 
