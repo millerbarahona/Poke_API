@@ -1,7 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import ListOfPokemones from '../components/ListOfPokemones';
-import Pokemon from '../components/Pokemon';
 import get_pokemones from '../helpers/get_pokemones';
 import styles from '../styles/Home.module.css'
 
