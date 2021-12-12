@@ -1,8 +1,8 @@
 import styles from '../styles/Home.module.css';
 import React from 'react';
 
-const Pokemon = React.forwardRef(({ pokemon }, ref) => {
-  
+function Pokemon({ pokemon }) {
+
   let className;
 
   switch (pokemon.type) {
@@ -28,6 +28,5 @@ const Pokemon = React.forwardRef(({ pokemon }, ref) => {
     </div>
   )
 }
-)
 
 export default Pokemon
