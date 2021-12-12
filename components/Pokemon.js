@@ -1,8 +1,6 @@
 import styles from '../styles/Home.module.css';
-import React from 'react';
 
 function Pokemon({ pokemon }) {
-
   let className;
 
   switch (pokemon.type) {
@@ -24,9 +22,10 @@ function Pokemon({ pokemon }) {
   return (
     <div key={pokemon.name} className={`${styles.pokemon} ${className}`} >
       <h1 className={styles.pokemon_name} >{pokemon.name}</h1>
-      <img src={pokemon.photo_url} alt="" style={{ width: '150px' }} />
+      <img  src={pokemon.photo_url} alt="" style={{ width: '150px' }} />
     </div>
   )
 }
+Pokemon.displayName = 'Pokemon'
 
 export default Pokemon
