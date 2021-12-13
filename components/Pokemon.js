@@ -1,4 +1,4 @@
-import styles from '../styles/Home.module.css';
+import styles from '../styles/Pokemon.module.css';
 
 function Pokemon({ pokemon }) {
   let className;
@@ -22,7 +22,7 @@ function Pokemon({ pokemon }) {
   return (
     <div key={pokemon.name} className={`${styles.pokemon} ${className}`} >
       <h1 className={styles.pokemon_name} >{pokemon.name}</h1>
-      <img  src={pokemon.photo_url} alt="" style={{ width: '150px' }} />
+      <img  src={pokemon.photo_url} alt="" className={styles.pokemon_photo} />
     </div>
   )
 }                   

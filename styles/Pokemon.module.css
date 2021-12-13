@@ -1,0 +1,45 @@
+.pokemon {
+  background-color: #E8E8E8;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fire {
+  background-color: #ec2323;
+}
+
+.water {
+  background-color: #397dfc;
+}
+
+.grass {
+  background-color: #4fdd32;
+}
+
+.poison {
+  background-color: #6025eb;
+}
+
+.pokemon:hover {
+  cursor: pointer;
+}
+
+.pokemon_name {
+  text-transform: capitalize;
+}
+
+.pokemon_photo {
+  width: 150px;
+}
+
+@media  (max-width: 600px) {
+  .pokemon_name {
+    font-size: medium;
+  }
+
+  .pokemon_photo {
+    width: 90px;
+  }
+}
