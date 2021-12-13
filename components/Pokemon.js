@@ -25,6 +25,6 @@ function Pokemon({ pokemon }) {
       <img  src={pokemon.photo_url} alt="" style={{ width: '150px' }} />
     </div>
   )
-}
-
+}                   
+ 
 export default Pokemon
