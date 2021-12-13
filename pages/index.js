@@ -24,7 +24,7 @@ export default function Home({ pokemones }) {
 }
 
 export async function getServerSideProps() {
-  const pokemones = await get_pokemones(100);
+  const pokemones = await get_pokemones();
 
   return {
     props: {
